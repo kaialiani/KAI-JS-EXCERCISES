@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number List</title>
+    <style>
+      .number {
+        margin: 5px;
+        padding: 10px;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .even {
+        background-color: lightblue;
+      }
+      .odd {
+        background-color: lightcoral;
+      }
+      .highlight {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Number list</h1>
+    <div id="number-list"></div>
+    <h1>Guess the Number!</h1>
+    <p>I'm thinking of a number between 1 and 100.</p>
+    <button id="start-game">Start Game</button>
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
